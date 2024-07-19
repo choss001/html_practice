@@ -15,10 +15,21 @@
     padding: 50px;
     border-color: red;
     border-style: solid;
+    text-align: center;
 }
 
 .clearfix::after{
     content: "";
     clear: both;
     display: table;
+}
+#top-nav-bar{
+    height: 0;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 4;
 }
