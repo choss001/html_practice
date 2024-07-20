@@ -1,0 +1,7 @@
+function scrollmenow(direction){
+    scrollinterval = window.setInterval(function() {
+        console.log("test");
+
+    },10);
+    console.log(direction)
+}
