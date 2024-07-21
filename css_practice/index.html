@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<div id="top-nav-bar" class="clearfix">
+<div id="top-nav-bar">
     <div class="top-nav-ele">t1</div>
     <div class="top-nav-ele">t2</div>
     <div class="top-nav-ele">t3</div>
@@ -56,8 +56,9 @@
     <div class="top-nav-ele">t3</div>
     <div class="top-nav-ele">t3</div>
     <div id="btn_container_subtopnav">
-        <div id="scroll_right_btn">
-            <span onmousedown="scrollmenow(1)">   >    </span>
+        <div id="scroll_left_btn" onmousedown="scrollmenow(1)" onmouseup="stopscrollmenow()"
+         onmouseout="stopscrollmenow()" id="scroll_right_btn">
+            <span>   >    </span>
 
         </div>
     </div>
