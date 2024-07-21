@@ -5,3 +5,9 @@ function scrollmenow(direction){
     },10);
     console.log(direction)
 }
+
+function test(){
+    test = window.setInterval(function() {
+        console.log("tset!!!")
+    }, 10)
+}
