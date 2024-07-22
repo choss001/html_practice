@@ -32,6 +32,7 @@
     width: 100%;
     z-index: 4;
     white-space: nowrap;
+    scrollbar-width: none;
 }
 
 .top-nav-ele {
@@ -41,7 +42,7 @@
     width: 100px;
     text-align: center;
 }
-#btn_container_subtopnav {
+#btn_container_subtopnav_right {
     cursor: pointer;
     border-style: solid;
     border-color: red;
@@ -49,6 +50,17 @@
     background-color: red;
     width: 100px;
     right: 0;
+    top: 0;
+    position: fixed;
+}
+#btn_container_subtopnav_left {
+    cursor: pointer;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    background-color: red;
+    width: 100px;
+    left: 0;
     top: 0;
     position: fixed;
 }
