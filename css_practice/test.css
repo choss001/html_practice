@@ -33,11 +33,14 @@
     z-index: 4;
     white-space: nowrap;
     scrollbar-width: none;
+    background-color: #282A35;
+    color: #f1f1f1;
+    
 }
 
 .top-nav-ele {
     display: inline-block;
-    border-color: blue;
+    border-color: #282A35;
     border-style: solid;
     width: 100px;
     text-align: center;
@@ -48,7 +51,7 @@
     border-color: red;
     text-align: center;
     background-color: red;
-    width: 100px;
+    width: 50px;
     right: 0;
     top: 0;
     position: fixed;
@@ -59,7 +62,7 @@
     border-color: red;
     text-align: center;
     background-color: red;
-    width: 100px;
+    width: 50px;
     left: 0;
     top: 0;
     position: fixed;
